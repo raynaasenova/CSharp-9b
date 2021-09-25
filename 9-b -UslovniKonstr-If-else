@@ -1,6 +1,6 @@
 using System;
 
-namespace UslovniKonstrukcii
+namespace UslovniKonstr-If-else
 {
 	class Program
 	{
