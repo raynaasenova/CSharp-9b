@@ -1,0 +1,21 @@
+using System;
+
+namespace biggerNumber
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 4;
+            int b = 5;            
+            int biggerNumber = a;
+
+            if (b > a)
+            {
+                biggerNumber = b;
+            }
+
+            Console.WriteLine("The bigger number is: {0}", biggerNumber);
+        }
+    }
+}
