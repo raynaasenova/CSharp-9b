@@ -1,0 +1,25 @@
+using System;
+
+namespace LogicheskiOperatori
+//Логическите оператори приемат булеви стойности и връщат булев резултат (true или false). Основните булеви оператори са "И" (&&), "ИЛИ" (||), изключващо "ИЛИ" (^) и логическо отрицание (!).
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            bool a = true;
+
+            bool b = false;
+
+            Console.WriteLine(a && b);              // False
+
+            Console.WriteLine(a || b);              // True
+
+            Console.WriteLine(!b);                  // True
+
+            Console.WriteLine(b || true);           // True
+
+            Console.WriteLine((5 > 7) ^ (a == b));  // False
+        }
+    }
+}
