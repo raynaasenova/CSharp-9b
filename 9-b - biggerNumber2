@@ -1,0 +1,23 @@
+using System;
+
+namespace biggerNumber2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+			Console.WriteLine("Въведете две числа.");
+			Console.Write("Въведете първото число: ");
+			int a = int.Parse(Console.ReadLine());
+			Console.Write("Въведете второто число: ");
+			int b = int.Parse(Console.ReadLine());
+			int biggerNumber = a;
+			if (b > a)
+			{
+				biggerNumber = b;
+			}
+			Console.WriteLine("По-голямото число е: {0}", biggerNumber);
+
+		}
+	}
+}
