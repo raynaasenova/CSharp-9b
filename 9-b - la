@@ -1,0 +1,16 @@
+using System;
+
+namespace _1_La
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Beep(432, 500);
+            /*2. зад.
+             * for (int i = 200; i <= 4000; i += 200)
+                Console.Beep(i, 100);*/
+            
+        }
+    }
+}
